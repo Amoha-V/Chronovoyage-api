@@ -1,13 +1,13 @@
 {
   "name": "morse-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Morse code audio generator API",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["morse", "api", "audio"],
+  "author": "Amoha Vivekananthan",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
